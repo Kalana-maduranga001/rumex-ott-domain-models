@@ -48,11 +48,7 @@
 			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
 			<!-- Your domain models -->
-		<dependency>
-			<groupId>lk.rumex</groupId>
-			<artifactId>ott-domain-models</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
 		
+
 	</dependencies>
 </project>
