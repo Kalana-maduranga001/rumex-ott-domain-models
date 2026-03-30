@@ -1,0 +1,21 @@
+package lk.rumex.ott_domain_models.cacheManager.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+
+import java.util.List;
+
+@EqualsAndHashCode(callSuper = true)
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class TvShowsResDTO extends ContentDetailsResDTO{
+    private List<CastResDTO> director;
+    private List<CastResDTO> producer;
+    private List<CastResDTO> cast;
+    private String mediaTrailerUrl;
+    private List<SeasonResDTO> seasons;
+    private List<EpisodeCommonResDTO> seasonOneEpisodes;
+}
