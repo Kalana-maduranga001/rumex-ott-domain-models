@@ -34,12 +34,12 @@ public class PromoCode extends BaseConfig {
     private Double discountPercentage;
 
     @Temporal(TemporalType.TIMESTAMP)
-    @Column(name = "start_date", nullable = false)
-    private Date startDate;
+    @Column(name = "publish_date", nullable = false)
+    private Date publishDate;
 
     @Temporal(TemporalType.TIMESTAMP)
-    @Column(name = "end_date", nullable = false)
-    private Date endDate;
+    @Column(name = "expire_date", nullable = false)
+    private Date expireDate;
 
     @Column(name = "max_usage_count", nullable = false)
     private Long maxUsageCount;
